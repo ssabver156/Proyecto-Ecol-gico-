@@ -1,0 +1,66 @@
+body {
+    background-color: #eeeeee;
+}
+header {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 20px;
+}
+#titulo {
+    margin: 0px 0px 15px 0px;
+}
+#menuPrincipal {
+    background-color: #444444;
+}
+nav ul {
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+    border-color: red #32a1ce;
+}
+#menuPrincipal ul li {
+    display: inline;
+    margin: 0px 15px 0px 15px;
+    border-style: inset;
+}
+.enlacemenuPrincipal {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    font-weight: lighter;
+}
+.tituloSeccion {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    border: 4mm ridge rgba(211, 220, 50, .6);
+}
+article {
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    margin: 0px 0px 15px 0px;
+    padding: 10px 10px 10px 10px;
+    font-size: smaller;
+}
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 20px 0px;
+}
+p {
+    font-family: Georgia, serif;
+}
+a:hover {
+    color: red;
+    background: beige;
+  }
+  
+  @media (hover: hover) {
+    /* when hover is supported */
+    a:hover {
+      color: blue;
+      background: green;
+    }
+  }
